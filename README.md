@@ -56,3 +56,24 @@ sudo yum install -y docker
 sudo service docker start
 sudo usermod -aG docker ec2-user
 ```
+
+
+**Kubernetes,Terraform Commands**
+      
+      $ kubectl config get-clusters
+
+     $ kubectl cluster-info
+
+    $ kubectl config get-contexts
+
+    $ kubectl config current-context
+
+    $ kubectl config use-context docker-desktop
+
+    $ kubectl get all
+
+    $ kubectl get services
+
+    $ kubectl get svc 
+
+    $ kubectl get pods
